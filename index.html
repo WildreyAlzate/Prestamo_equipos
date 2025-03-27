@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta name="viewsport" content="width=device-whudth, initial-scale=1.0">
+        <meta name="HTML5" content="introduccion a HTML5 basico">
+        <title> Introduccion a HTML5</title>
+    </head>
+    <body>
+        <header>
+            <h2>Realiza el formulario</h2>
+            <nav><li><a href="http://127.0.0.1:5500/Formulario_Registro.html">Formulario</a></li></nav>
+            <h1> Introduccion a HTML5</h1>
+            <p> HTML5 es la última versión del lenguaje de marcado HTML, utilizado para la estructuración de contenido en la web.
+
+                ¿Qué es HTML?</p>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="http://127.0.0.1:5500/index.html#que-es-html"> ¿Que es HTML? </a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#Editores-de-codigo"> Editores de Codigo </a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#etiquetas-html"> Etiquetas HTML5 </a></li>
+                <li><a href="http://127.0.0.1:5500/index.html#contenido-html"> Etiquitas de contenido </a></li>
+                
+            </ul>
+        </nav>
+        </nav>
+        <section id="que-es-html">
+            <h2> ¿Que es HTML?</h2>
+            <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear y estructurar páginas web. Define la estructura de un documento web mediante etiquetas.</p>
+        </section>
+        <section id="Editores-de-codigo">
+            <h2>Editores de codigo</h2>
+            <p>Los editores de código son herramientas que ayudan a los desarrolladores a escribir y oreganizar su código. Algunos editores comunes son:</p>
+            <ul>
+                <li> Visual Studio Code</li>
+                <li> Note Pad++ </li>
+                <li> Sublime Text </li>
+            </ul>
+        </section>
+        <section id="etiquetas-html">
+            <h2> Etiquetas HTML5 </h2>
+            <p>HTML5 introduce nuevas etiquetas semánticas que ayudan a estructurar el contenido de manera más clara. Algunas de las principales etiquetas son:</p>
+            <ul>
+                <li><strong>&lt;header&gt;</strong> la cabecera del documento o sección. </li>
+                <li><strong>&lt;nav&gt;</strong> Define una sección de navegación. </li>
+                <li><strong>&lt;article&gt;</strong> Representa contenido independiente y autónomo </li>
+                <li><strong>&lt;foorter&gt;</strong> Define el pie de página del documento o sección </li>
+                <li><strong>&lt;section&gt;</strong> Define una sección de contenido en el documento </li>
+            </ul>
+        </section>
+        <section id="contenido-html">
+            <h2> Etiquetas de contenido </h2>
+            <p> Las siguientes son algunas de las etiquetas de contenido básicas que se usan en HTML5: </p>
+            <ul>
+                <li><strong>&lt;h1&gt;<strong>y</strong>&lt;h6&gt;</strong> Encabezados de dieferentes nieveles </li>
+                <li><strong>&lt;p&gt;</strong> Parrafo de texto </li>
+                <li><strong>&lt;ul&gt;y&lt;ol&gt;</strong> Listas no ordenadas y ordenadas </li>
+                <li><strong>&lt;a&gt;</strong> Enlaces a otras paginas o recursos </li>
+            </ul>
+        </section>
+        <h1> Tablas y etiquetas multimedia </h1>
+             <h2>Tablas</h2>
+             <p>Las tablas en HTML5 se crean utlizando las etiquetas &lt;table&gt;,&lt;tr&gt;,&lt;th&gt;&lt;td&gt;,entre otros.</p>
+             <table>
+                <tbody><tr>
+                    <th> Nombre </th>
+                    <th> Edad </th>
+                    <th> Ciudad </th>
+                </tr>
+                <tr> 
+                    <td> Juan </td>
+                    <td> 30 </td>
+                    <td> Madrid </td>
+                </tr>
+                <tr> 
+                    <td> Maria </td>
+                    <td> 25 </td>
+                    <td> Barcelona </td>
+                </tr>
+                <tr>
+                    <td> Pedro </td>
+                    <td> 35 </td>
+                    <td> Sevilla </td>
+                </tr>
+             </tbody></table>
+             <p> Tambien puedes usar los atributos colspan y rowspan para fucionar celdas en la tabla:</p>
+             <table>
+                <thead>
+                      <tr>
+                    <th colspan="2"> Informacion personal </th>
+                </tr>
+                </thead>
+              <tbody>
+                <tr>
+                    <td rowspan="2"> Juan </td>
+                    <td> Edad: 30 </td>
+                </tr>
+                <tr>
+                    <td> Ciudad </td>
+                </tr>
+              </tbody>
+       
+             </table>
+             <h2> Etiqueta de imagen </h2>
+             <p> La etiqueta de img se usa para insertar imagenes en una pagina web. Es importante especificar los atributos src ( fuente de la imagen) y alt (texto alternativo):</p>
+             <img src="./index_files/imgres" alt="Ejemplo de imagen">
+             <h2> Previsualización de Imagen </h2> 
+             <p> Puedes usar la etiqueta &lt;img&gt; para mostar una imagen con Previsualización</p>
+             <img src="./index_files/petro20.jpeg">
+             <video width="300" height="200" controls="">
+                <source src="https://youtu.be/Hg469wSrZhI?si=wORPWX9uNz4vFKCt" type="video/mp4">
+                
+             </video>
+             <h3> Etiquetas de audio</h3>
+             <p>la etiqueta de audio permite incluir un archivo <br/>
+                audio de una pagina web. Tambien se puede agregar el atributo<br/>
+                controls para mostrar controles de reproduccion
+            </p>
+        </section>
+             <audio controls>
+                <source
+                src="https://youtu.be/qDXMcR9Ck0E?si=-PUfvcmFv9DQySQQ"
+                type="audio/mp3"
+                />
+              </audio>
+              <h3>Etiquetas de Ifame</h3>
+              <p>
+                La etiqueta <code>&lt;Iframe&gt;</code> se usa para incrustar contenido
+                externo, como un video de youtube o un mapa d google;
+              </p>
+              <iframe
+              width="568"
+              height="315"
+              src="https://youtu.be/Tf4pSSN_P3w?si=x8EJ1lQEs_z899XF"
+              frameborder="0"
+              allow="acelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              ></iframe>
+              <h3>Mapa de Google</h3>
+              <p>
+                La etiqueta <code>&lt;iframe&gt;</code> se usa para incrustar un mapa de
+                Google:
+              </p>
+              <iframe
+              src="https://www.google.com/maps/embed?pb=!4v1741824413479!6m8!1m7!1svTer4EI5kffbl3dKXFqVyw!2m2!1d6.14804483501104!2d-75.38302887317839!3f248.89917114984308!4f0!5f0.7820865974627469" 
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>"
+              
+        <footer> 
+            <p>Creado por Wildrey Alexis Alzate Berrio, este es un ejemplo simple de HTML5.</p>
+        </footer>
+
+    <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+<div id="extwaiokist" style="display:none" v="nipgg" q="ebfb6d68" c="630.5" i="38" u="25.74" s="03042522" sg="svr_undefined-ga_03042522-bai_undefined" d="0" w="false" e="" a="3" m="BMe=" vn="9adfy"><div id="extwaigglbit" style="display:none" v="nipgg" q="ebfb6d68" c="630.5" i="38" u="25.74" s="03042522" sg="svr_undefined-ga_03042522-bai_undefined" d="0" w="false" e="" a="3" m="BMe="></div></div></body></html>
